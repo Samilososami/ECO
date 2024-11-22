@@ -1,0 +1,72 @@
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #e8f5e9; /* Verde suave */
+    color: #2e7d32; /* Verde oscuro */
+}
+
+h1, h2 {
+    margin: 0;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Hero */
+.hero {
+    background: linear-gradient(45deg, #66bb6a, #43a047);
+    color: white;
+    padding: 50px 20px;
+    text-align: center;
+    border-bottom: 5px solid #388e3c;
+}
+
+/* Secciones */
+main {
+    padding: 20px;
+}
+
+.about, .features, .call-to-action {
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Lista de objetivos */
+.features ul {
+    list-style-type: square;
+    margin: 0;
+    padding: 0;
+}
+
+.features li {
+    margin: 10px 0;
+    font-size: 1.1em;
+}
+
+/* Botón */
+button {
+    background: linear-gradient(90deg, #43a047, #2e7d32);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background: linear-gradient(90deg, #2e7d32, #43a047);
+}
+
+/* Footer */
+footer {
+    background: #2e7d32;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
