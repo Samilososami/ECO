@@ -1,10 +1,18 @@
 /* Estilos generales */
+:root {
+    --light-green: #e8f5e9;
+    --dark-green: #2e7d32;
+    --medium-green: #66bb6a;
+    --deep-green: #43a047;
+    --border-green: #388e3c;
+}
+
 body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background: #e8f5e9; /* Verde suave */
-    color: #2e7d32; /* Verde oscuro */
+    background: var(--light-green);
+    color: var(--dark-green);
 }
 
 h1, h2 {
@@ -15,11 +23,11 @@ h1, h2 {
 
 /* Hero */
 .hero {
-    background: linear-gradient(45deg, #66bb6a, #43a047);
+    background: linear-gradient(45deg, var(--medium-green), var(--deep-green));
     color: white;
     padding: 50px 20px;
     text-align: center;
-    border-bottom: 5px solid #388e3c;
+    border-bottom: 5px solid var(--border-green);
 }
 
 /* Secciones */
@@ -27,7 +35,7 @@ main {
     padding: 20px;
 }
 
-.about, .features, .call-to-action {
+.about, .features, .overview, .get-involved, .call-to-action {
     margin: 20px auto;
     padding: 20px;
     background: white;
@@ -49,7 +57,7 @@ main {
 
 /* Botón */
 button {
-    background: linear-gradient(90deg, #43a047, #2e7d32);
+    background: linear-gradient(90deg, var(--deep-green), var(--dark-green));
     color: white;
     border: none;
     border-radius: 5px;
@@ -60,12 +68,12 @@ button {
 }
 
 button:hover {
-    background: linear-gradient(90deg, #2e7d32, #43a047);
+    background: linear-gradient(90deg, var(--dark-green), var(--deep-green));
 }
 
 /* Footer */
 footer {
-    background: #2e7d32;
+    background: var(--dark-green);
     color: white;
     text-align: center;
     padding: 10px 0;
